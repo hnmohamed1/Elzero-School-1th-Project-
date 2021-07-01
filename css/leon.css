@@ -284,7 +284,7 @@ body {
 /* Start Of About  */
 .about {
   padding-top: var(--padding-section);
-  padding-bottom: calc( var(--padding-section) + 60px );
+  padding-bottom: calc(var(--padding-section) + 60px);
 }
 .about .about-content {
   display: flex;
@@ -292,7 +292,7 @@ body {
   flex-wrap: wrap;
   margin-top: 100px;
 }
-@media ( max-width: 991px ) {
+@media (max-width: 991px) {
   .about .about-content {
     flex-direction: column;
     text-align: center;
@@ -302,18 +302,18 @@ body {
   content: "";
   background-color: #ebeced;
   width: 100px;
-  height: calc( 100% + 80px );
+  height: calc(100% + 80px);
   position: absolute;
   top: -40px;
   left: -20px;
   z-index: -1;
 }
-.about .about-content .image  {
+.about .about-content .image {
   position: relative;
   width: 250px;
   height: 375px;
 }
-@media (max-width: 991px ) {
+@media (max-width: 991px) {
   .about .about-content .image {
     margin: 0 auto 60px;
   }
@@ -339,7 +339,7 @@ body {
   }
 }
 .about .about-content .text {
-  flex-basis: calc( 100% - 500px);
+  flex-basis: calc(100% - 500px);
 }
 .about .about-content .text p:first-of-type {
   font-weight: bold;
@@ -394,13 +394,19 @@ body {
   color: var(--secondary-color);
   text-decoration: none;
 }
+@media (max-width: 767px) {
+  .contact .info .label,
+  .contact .info .link {
+    font-size: 25px;
+  }
+}
 /* End Of Contact */
 /* Start Of Footer */
 .footer {
   background-color: var(--secondary-color);
   padding: 25px;
   text-align: center;
-  color: white;  
+  color: white;
   font-size: 20px;
 }
 .footer span {
