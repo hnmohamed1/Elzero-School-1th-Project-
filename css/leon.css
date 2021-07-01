@@ -396,7 +396,7 @@ body {
 }
 @media (max-width: 767px) {
   .contact .info .label,
-  .contact .info .link {
+  .contact .info .label + a {
     font-size: 25px;
   }
 }
